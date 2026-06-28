@@ -26,14 +26,6 @@ python -m prami.cli shell
 Full guide: [docs/local-testing.en.md](docs/local-testing.en.md) ·
 [docs/local-testing.pt-br.md](docs/local-testing.pt-br.md)
 
-## Documentation
-
-Start at the [docs index](docs/README.md). Highlights:
-- [Local testing](docs/LOCAL_TESTING.md) — drive Prami with no Mastodon
-- [Game design](docs/GAME_DESIGN.md) — stats, commands, social features
-- [Moderation & safety](docs/MODERATION.md) — favourites, boosts, teach approval
-- [Admin commands](docs/ADMIN_COMMANDS.md) — runtime controls
-- [Mastodon setup](docs/MASTODON_SETUP.md) — going live
 
 ## License
 
