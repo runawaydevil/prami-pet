@@ -1,0 +1,10 @@
+[project]
+name = "prami"
+version = "0.1.0"
+description = "A federated community virtual pet for Mastodon / ActivityPub"
+requires-python = ">=3.11"
+license = { text = "AGPL-3.0-or-later" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
