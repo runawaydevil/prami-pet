@@ -4,7 +4,6 @@ from . import personality as personality_mod
 from . import templates
 from .config import config
 
-# Back-compatible names; the data lives in templates.py.
 TEMPLATES = templates.COMMAND_TEMPLATES
 AUTOPOST = templates.AUTOPOST
 

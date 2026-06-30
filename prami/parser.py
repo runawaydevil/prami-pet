@@ -4,8 +4,6 @@ from html import unescape
 
 from .actions.registry import REGISTRY
 
-# Command vocabulary comes from the action registry, so parsing and execution
-# never drift apart.
 _ALIAS_TO_COMMAND = REGISTRY.alias_map()
 PHRASE_ALIASES = REGISTRY.phrase_map()
 

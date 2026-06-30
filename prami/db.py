@@ -34,7 +34,7 @@ def init_engine(database_url):
 
 
 def create_all():
-    from . import models  # noqa: F401  (registers the mappers)
+    from . import models  # noqa: F401
 
     Base.metadata.create_all(_engine)
 

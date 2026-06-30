@@ -1,6 +1,3 @@
-"""All of Prami's authorable text lives here. See docs/VOICE_AND_PERSONALITY.md
-before adding or editing lines. The logic that picks between them lives in responses.py."""
-
 COMMAND_TEMPLATES = {
     "status": {
         "normal": [
@@ -323,8 +320,6 @@ HELP_TEXT = (
     "Be gentle with the snacks. I bruise emotionally."
 )
 
-# Community event scenarios: title/description/options + per-option outcome text and
-# the stat deltas the winning option applies. Pure content + tuning, no logic.
 EVENT_SCENARIOS = [
     {
         "key": "egg",

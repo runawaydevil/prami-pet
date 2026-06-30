@@ -155,7 +155,7 @@ def cmd_event_complete(args):
 def cmd_admin(args):
     acct = (args.user or DEFAULT_USER).lstrip("@")
     if acct.lower() not in [a.lower() for a in config.admin_accounts]:
-        config.admin_accounts.append(acct)  # local CLI trusts the operator
+        config.admin_accounts.append(acct)
     print(run_command("admin", acct, " ".join(args.args))["text"])
 
 
